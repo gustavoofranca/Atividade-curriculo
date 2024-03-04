@@ -1,0 +1,40 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h1{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 400;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul li:hover a {
+    color: rgb(67, 111, 255);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
